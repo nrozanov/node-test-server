@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx mocha test/routers/*.js",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.0.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "joi": "^17.12.1",
+    "mocha": "^10.2.0",
+    "mongodb-memory-server": "^9.1.6",
+    "mongodb-memory-server-core": "^9.1.6",
+    "mongoose": "^8.1.1",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "3.2.5"
+  }
+}
